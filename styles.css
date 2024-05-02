@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(255, 0, 102);
+
+}
+
+
+textarea {
+    height: 90px;
+    width: 100%;
+    
+}
+
+
+
+.imgph {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.imgph:hover {
+    scale: 1.1;
+    box-shadow: 10px 10px 10px;
+    transition: all 1s ease 0s;
+    }
+
+    .container {
+       box-shadow: 0px 0px 100px;
+
+    }
+
+    .shadow1 {
+        box-shadow: 0px 0px 10px rgb(104, 20, 20);
+    }
+
+    .nav-pills {
+        --bs-nav-pills-border-radius: var(--bs-border-radius);
+        --bs-nav-pills-link-active-color: #fff;
+        --bs-nav-pills-link-active-bg: #fd0067;
+    }
+
+    .nav {
+        --bs-nav-link-padding-x: 1rem;
+        --bs-nav-link-padding-y: 0.5rem;
+        --bs-nav-link-font-weight: ;
+        --bs-nav-link-color: #000000;
+        --bs-nav-link-hover-color: #ffffff;
+        --bs-nav-link-disabled-color: var(--bs-secondary-color);
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .fa-square:hover {
+        font-size: 23px;
+        transition: all 1s ease 0s;
+    }
+
+    .fa-table-cells:hover {
+        font-size: 23px;
+        transition: all 1s ease 0s;
+    }
+
+    
+
+    .boxpg2 {
+        width: 450px;
+        height: 500px;
+        background-color: rgb(33, 33, 33);
+        box-shadow: 0px 0px 10px black;
+        position: relative;
+        left: 330px;
+        
+        margin-bottom: 2%;
+        border-radius: 5px;
+    }
+
+    .imgpg2 {
+        width: 100%;
+        height: 60%;
+    }
+
+.tiltles {
+    color: #ffffff;
+    font-size: large;
+    
+    position: relative;
+    top: 20px;
+    
+}
+
+.date {
+color: #c5c5c5;
+padding: 0%;
+margin: 0%;
+position: relative;
+top: 10px;
+}
+
+.date:hover {
+    color: #ffffff;
+    }
+
+.fa-heart,.fa-bookmark {
+    position: relative;
+    top: 40px;
+    margin: 10px;
+    opacity: 40%;
+    color: #fff;
+}
+
+.fa-bookmark{
+    left: -40px;
+    top: 70px;
+
+}
+
+.fa-heart:hover {
+color: #ff007b;
+opacity: 100%;
+cursor: pointer;
+transform: scale(1.5);
+transition: all 1.2s ease 0s;
+}
+
+.fa-bookmark:hover {
+    color: #ffffff;
+    opacity: 100%;
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all 1.2s ease 0s;
+    }
+
+    .likes {
+        color: #c5c5c5;
+        padding: 0%;
+        margin: 0%;
+        }
+
+        .likes:hover {
+            color: #ffffff;
+            }
+
+            .caption {
+                color: #fff;
+                position: relative;
+                left: 15px;
+            }

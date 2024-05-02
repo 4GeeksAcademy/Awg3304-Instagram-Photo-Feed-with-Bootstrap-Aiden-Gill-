@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/bfe9fd90bb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--HEADER-->
+<nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="fa-brands fa-instagram fa-lg" style="color: #ff007b;"></i>
+      Instagram
+    </a>
+<!--HEADER CONTENT ROW-->
+<!--MODAL-->
+<div class="row">
+<div class="col-auto"><div class="box"><!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Create A Post
+  </button>
+  
+  <!--Modal Content-->
+  <div data-bs-theme="dark" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-light" id="exampleModalLabel">Create A New Post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-light">
+          <h6>Caption:</h3>
+          <textarea name="" id="" placeholder="Create a new caption" cols="30" rows="10"></textarea>
+          <div class="row gx-2">
+            <div class="col-auto"><div class="box"><button type="button" class="btn btn-light"><i class="fa-solid fa-camera fa-lg" style="color: #343434;"></i></button></div></div>
+            <div class="col-auto"><div class="box"><button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot fa-lg" style="color: #343434;"></i></button></div></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div></div></div>
+<!--MODAL END-->
+
+<!--DROPDOWN-->
+<div class="col-auto"><div class="box"><div class="dropdown">
+  <button class="btn btn-light text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="fa-solid fa-gear fa-xl" style="color: #1b1b1b;"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><a class="dropdown-item" href="#">Profile</a></li>
+    <li><a class="dropdown-item" href="#">Accessibility</a></li>
+    <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
+    <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+  </ul>
+</div></div></div>
+</div>
+</nav>
+<!--HEADER END-->
+
+<!--PILLS-->
+<div class="container"><div class="col"><div class="box"><ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells fa-lg" style="color: #ffffff;"></i></button>
+  </li>
+  <li class="nav-item" role="presentation"> 
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square fa-lg" style="color: #ffffff;"></i></button>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    <div class="container-fluid bg-dark" class="shadow1">
+      <div class="row row-cols-3 gy-1 gx-1 p-0 m-0 justify-content-center">
+       <div class="col-4"><div class="imgbox"><img src="https://t4.ftcdn.net/jpg/01/81/07/91/360_F_181079136_irl2A25Clc5Bi2Lwa3Q9kJvF0RlFv8tU.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/6a985aaa-8a95-4382-97a9-91cdf96f43d3-Moraine_Lake_Dennis_Frates_Alamy_Stock_Photo.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://www.capturelandscapes.com/wp-content/uploads/2016/11/knuten-sunstar-sunrise-1.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://wallpapers.com/images/hd/beautiful-fall-pictures-r8z97js0tjbz137b.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://www.joinmytrip.com/blog/wp-content/uploads/2023/04/stefan-widua-COLqFNCbPXE-unsplash.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://wallpapers.com/images/featured/japan-cherry-blossom-rbofhm6ztuoe9ti5.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://freedesignfile.com/upload/2016/11/Beautiful-underwater-coral-reefs-with-fish-Stock-Photo-01.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://www.travelandleisure.com/thmb/A3XmGHhsRGGXVOcUDj0kp1nrjjQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-Lake-Tahoe-CAPLACES0323-a7b44b7e30534c3cb330127936695bb1.jpg" alt="" class="imgph"></div></div>
+       <div class="col-4"><div class="imgbox"><img src="https://i.natgeofe.com/n/dde3c72a-7612-451e-9796-5498d6386a04/yourshot-underwater-1869254.jpg" alt="" class="imgph"></div></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+<div class="container">
+<div class="row-1">
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">New York Overcast</p><p class="date">04/24</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://t4.ftcdn.net/jpg/01/81/07/91/360_F_181079136_irl2A25Clc5Bi2Lwa3Q9kJvF0RlFv8tU.jpg" alt="" class="imgpg2"><p class="likes">310 Likes <br></p><p class="caption">This is an example of a very good photo you can post on instagram</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Beautiful Blue</p><p class="date">04/25</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/6a985aaa-8a95-4382-97a9-91cdf96f43d3-Moraine_Lake_Dennis_Frates_Alamy_Stock_Photo.jpg" alt="" class="imgpg2"><p class="likes">13,453 Likes <br></p><p class="caption">Here is another good example!</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Snow Day</p><p class="date">04/25</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://www.capturelandscapes.com/wp-content/uploads/2016/11/knuten-sunstar-sunrise-1.jpg" alt="" class="imgpg2"><p class="likes">1.5M Likes <br></p><p class="caption">Another great example of something that can be posted to Instagram, and an even better example of text wrapping in action!</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">The Leaves are falling</p><p class="date">04/26</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://wallpapers.com/images/hd/beautiful-fall-pictures-r8z97js0tjbz137b.jpg" alt="" class="imgpg2"><p class="likes">5M Likes <br></p><p class="caption">Another great example of a caption that could be posted to Instagram now with emojis! ☕🍂</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Natural Oasis</p><p class="date">04/27</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://www.joinmytrip.com/blog/wp-content/uploads/2023/04/stefan-widua-COLqFNCbPXE-unsplash.jpg" alt="" class="imgpg2"><p class="likes">178,298 Likes <br></p><p class="caption">Once again another one!</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Cherry Blossoms Are My Happy Place</p><p class="date">04/29</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://wallpapers.com/images/featured/japan-cherry-blossom-rbofhm6ztuoe9ti5.jpg" alt="" class="imgpg2"><p class="likes">10M Likes <br></p><p class="caption">This is another Instgram post example.</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Under The Sea!</p><p class="date">04/29</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://freedesignfile.com/upload/2016/11/Beautiful-underwater-coral-reefs-with-fish-Stock-Photo-01.jpg" alt="" class="imgpg2"><p class="likes">31,988 Likes <br></p><p class="caption">Here is another example of a post you could post on Instagram!</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Beatiful Getaway</p><p class="date">04/30</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://www.travelandleisure.com/thmb/A3XmGHhsRGGXVOcUDj0kp1nrjjQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-Lake-Tahoe-CAPLACES0323-a7b44b7e30534c3cb330127936695bb1.jpg" alt="" class="imgpg2"><p class="likes">16M Likes <br></p><p class="caption">Tired of scrolling yet?</p></div></div>
+<div class="col-auto"><div class="boxpg2"><p class="tiltles">Suba Expedition</p><p class="date">05/01</p><i class="fa-solid fa-heart fa-xl"></i><i class="fa-solid fa-bookmark fa-xl"></i><img src="https://i.natgeofe.com/n/dde3c72a-7612-451e-9796-5498d6386a04/yourshot-underwater-1869254.jpg" alt="" class="imgpg2"><p class="likes">50M Likes <br></p><p class="caption">Last one 😌</p></div></div>
+
+
+
+
+
+
+
+</div></div></div>
+<!--more-->
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!--PILLS END-->
+
+  <!--BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
